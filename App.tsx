@@ -1,7 +1,7 @@
 
 import React, { useState, useEffect, useRef, useCallback, useMemo } from 'react';
 import { Message, Role, GolfData } from './types';
-import { useSpeechRecognition } from './hooks/useSpeechRecognition';
+import { useSpeechRecognition } from './hooks/useSpeechRecognition.ts';
 import { geminiService } from './services/geminiService';
 import Header from './components/Header';
 import ChatMessage from './components/ChatMessage';
